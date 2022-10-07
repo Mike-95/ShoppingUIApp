@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/womenCategoryFragment">
+
+    <fragment
+        android:id="@+id/womenCategoryFragment"
+        android:name="mikepopup.com.shoppingappui.WomenCategoryFragment"
+        android:label="fragment_women_category"
+        tools:layout="@layout/fragment_women_category" />
+</navigation>
