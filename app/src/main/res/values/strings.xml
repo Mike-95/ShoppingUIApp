@@ -2,4 +2,8 @@
     <string name="app_name">ShoppingAppUI</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Category1">New In</string>
+    <string name="Category2">Clothing</string>
+    <string name="Category3">Shoes</string>
+    <string name="Category4">Accessories</string>
 </resources>
