@@ -25,6 +25,7 @@ class ItemAdapter(private val context: Context, private val dataset: List<Catego
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         val item = dataset[position]
         holder.binding.tvCollectionName.text = context.resources.getString(item.StringResourceId)
+        holder.binding.ivCollectionImage.setImageResource(item.imageResourceId)
     }
 
     override fun getItemCount() = dataset.size
